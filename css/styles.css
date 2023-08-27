@@ -508,37 +508,15 @@ header h1 span{
         font-size: 55%;
     }
 
-    .hero {
-        padding: 2rem;
-    }
 
-    .customer-support {
-        display: none;
-    }
-
-    .content-shopping-cart {
-        display: none;
-    }
 
     .navbar {
         padding: 1rem 2rem;
     }
-
-    .navbar .fa-bars {
-        display: block;
-        color: #fff;
-        font-size: 3rem;
-    }
-
     .menu {
         display: none;
     }
 
-    .content-banner {
-        max-width: 50rem;
-        margin: 0 auto;
-        padding: 25rem 0;
-    }
 
     .card-category {
         height: 12rem;
