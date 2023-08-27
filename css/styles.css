@@ -174,7 +174,7 @@ header h1 span{
 	transition: all 0.4s ease;
 }
 .zapatilla{
-    animation: zapatilla_animacion ease-in-out infinite 4s;
+    animation: zapatilla_animacion ease-in-out infinite 5s;
 }
 @keyframes zapatilla_animacion{
     0%{ transform: translateY(-10%)}
