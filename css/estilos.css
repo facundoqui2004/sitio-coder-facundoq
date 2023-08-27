@@ -571,8 +571,6 @@ header {
         font-size: 1.6rem; }
 
 @media (max-width: 1200px) {
-  html {
-    font-size: 55%; }
   .navbar {
     padding: 1rem 2rem; }
   .menu {
@@ -597,14 +595,14 @@ header {
   .container-blogs {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem; }
-  .card-blog .container-img {
-    height: 300px;
-    width: 300px; }
-  .card-blog .container-vid iframe {
-    height: 300px;
-    width: 300px; }
-  .card-blog .content-blog h3 {
-    font-size: 2rem; }
+    .container-blogs .card-blog .container-img {
+      height: 300px;
+      width: 300px; }
+    .container-blogs .card-blog .container-vid iframe {
+      height: 300px;
+      width: 300px; }
+    .container-blogs .card-blog .content-blog h3 {
+      font-size: 2rem; }
   .menu-footer {
     grid-template-columns: repeat(2, 1fr); }
   .copyright {

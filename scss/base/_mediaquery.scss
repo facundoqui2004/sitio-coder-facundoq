@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-    html {
-      font-size: 55%;
-    }
   
     .navbar {
       padding: 1rem 2rem;
@@ -41,22 +38,22 @@
     .container-blogs {
       grid-template-columns: repeat(2, 1fr);
       gap: 2rem;
-    }
-  
-    .card-blog {
-      .container-img {
-        height: 300px;
-        width: 300px;
-      }
-      .container-vid {
-        iframe {
+    
+      .card-blog {
+        .container-img {
           height: 300px;
           width: 300px;
         }
-      }
-      .content-blog {
-        h3 {
-          font-size: 2rem;
+        .container-vid {
+          iframe {
+            height: 300px;
+            width: 300px;
+          }
+        }
+        .content-blog {
+          h3 {
+            font-size: 2rem;
+          }
         }
       }
     }
